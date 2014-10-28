@@ -1,0 +1,27 @@
+{
+  "name": "mitos_bootstrap",
+  "version": "0.0.0",
+  "authors": [
+    "lab.rafamello@gmail.com"
+  ],
+  "description": "Desvendando mitos: Bootstrap",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bootstrap",
+    "correctly",
+    "usage"
+  ],
+  "license": "MIT",
+  "homepage": "rafamello.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

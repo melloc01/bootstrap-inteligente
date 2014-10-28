@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-inteligente",
+  "description": "Usando o bootstrap de maneira inteligente",
+  "author": "Seu Nome da Silva <meu@gmail.com>",
+  "dependencies": {
+  	"gulp" : "*",
+  	"gulp-concat" : "*",
+  	"gulp-minify-css" : "*",
+  	"gulp-less" : "*",
+  	"bower": "*"
+  }
+}

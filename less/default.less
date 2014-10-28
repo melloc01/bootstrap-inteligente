@@ -1,0 +1,43 @@
+@path_to_bootstrap : '../bower_components/bootstrap/less';
+
+// Core variables and mixins
+@import "@{path_to_bootstrap}/variables.less";
+
+@import "variables.less";
+
+@import "@{path_to_bootstrap}/mixins.less";
+
+
+// Reset and dependencies
+@import "@{path_to_bootstrap}/normalize.less";
+@import "@{path_to_bootstrap}/print.less";
+@import "@{path_to_bootstrap}/glyphicons.less";
+
+// Core CSS
+@import "@{path_to_bootstrap}/scaffolding.less";
+@import "@{path_to_bootstrap}/type.less";
+@import "@{path_to_bootstrap}/code.less";
+@import "@{path_to_bootstrap}/grid.less";
+@import "@{path_to_bootstrap}/tables.less";
+// Utility classes
+@import "@{path_to_bootstrap}/utilities.less";
+@import "@{path_to_bootstrap}/responsive-utilities.less";
+
+.advantage-list{
+	list-style: none;
+	padding: 0;
+	.make-row();
+}
+.advantage-list li{
+	.make-xs-column(6);
+	.make-sm-column(4);
+	.make-md-column(3);
+	.make-lg-column(2);
+	
+	height: 100px;
+	border: 1px solid gray;
+
+}
+.advantage-list li:hover{
+	background: gray;
+}
