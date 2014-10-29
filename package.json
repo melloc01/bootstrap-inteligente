@@ -1,7 +1,8 @@
 {
   "name": "bootstrap-inteligente",
-  "description": "Usando o bootstrap de maneira inteligente",
+  "description": "Artigo - Usando o bootstrap de maneira inteligente",
   "author": "Seu Nome da Silva <meu@gmail.com>",
+  "repository": "https://github.com/rcbytes/bootstrap-inteligente",
   "dependencies": {
   	"gulp" : "*",
   	"gulp-concat" : "*",
