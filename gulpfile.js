@@ -7,7 +7,7 @@ var current_module = 'blog';
 
 var paths = {
 		styles : [
-			'less/default.less'
+			'less/main.less'
 		]
 };
 
